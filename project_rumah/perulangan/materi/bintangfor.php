@@ -24,13 +24,24 @@
 /* 
    segitiga rata kiri
 */
-for($a=10; $a>=0; $a--){
-	echo "<br>";
-	for ($a1=1; $a1 <= $a; $a1++){
+// for($a=10; $a>=1; $a--){
+// 	echo "<br> $a";
+// 	for ($a1=10; $a1 >= $a; $a1--){
+// 		echo "&nbsp $a1";
+// 	}
+// 	for ($a2=10; $a2 >= $a; $a2--){
+// 		echo "i";
+// 	}
+// }
+
+for($a=1; $a<=10; $a++){
+	echo " <br>";
+	for($i=10; $i>=$a; $i--){
 		echo "&nbsp";
 	}
-	for ($a2=10; $a2 >= $a; $a2--){
-		echo "#";
+	for($u=1; $u<=$a; $u++){
+		echo "*";
 	}
+
 }
 ?>
