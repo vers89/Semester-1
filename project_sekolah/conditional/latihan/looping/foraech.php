@@ -16,17 +16,31 @@
 
 
 
-$siswa = [
-    ["nama"=>"Virgi","jk"=>"L","umur"=>17],
-    ["nama"=>"Virgi","jk"=>"L","umur"=>17],
-    ["nama"=>"Virgi","jk"=>"L","umur"=>17],   
-    ["nama"=>"Virgi","jk"=>"L","umur"=>17],
-    ["nama"=>"Virgi","jk"=>"L","umur"=>17]
+// $siswa = [
+//     ["nama"=>"Virgi","jk"=>"L","umur"=>17],
+//     ["nama"=>"Anjay","jk"=>"L","umur"=>17],
+//     ["nama"=>"Sukro","jk"=>"L","umur"=>17],   
+//     ["nama"=>"Agus","jk"=>"L","umur"=>17],
+//     ["nama"=>"Gugus","jk"=>"L","umur"=>17]
+// ];
+
+// foreach ($siswa as $value) {
+//     echo "Nama : ". $value['nama']. "<br>";
+//     echo "Jenis Kelamin : ". $value['jk'] . "<br>";
+//     echo "Umur : ". $value['umur'] . "<br>";
+//     echo "<hr>";
+// }
+
+$mobil =[
+    ["merk"=>"Honda","warna" =>"Merah"],
+    ["merk"=>"Toyota","warna" =>"Hitam"],
+    ["merk"=>"Esemka","warna" =>"Transparan"],
+    ["merk"=>"Esempe","warna" =>"Biru"]
 ];
 
-foreach ($siswa as $value) {
-    echo "Nama : " . $value['nama']. "<br>";
-    echo "Jenis Kelamin : ". $value['jk'] . "<br>";
-    echo "Umur : ". $value['umur'] . "<br>";
-    echo "<hr>";
+foreach($mobil as $mbem){
+    echo "Merk : ". $mbem["merk"],"<br>";
+    echo "Warna : ". $mbem["warna"],"<br>";
+    echo "<br>";
 }
+
